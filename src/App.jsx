@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const getSampleText = async () => {
       setLoading(true);
-      const response = await axios.get('http://hipsum.co/api/', {
+      const response = await axios.get('https://hipsum.co/api/', {
         params: {
           type: params.type,
           paras: params.paras || undefined,
